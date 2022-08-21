@@ -83,6 +83,16 @@ But this file-processing system creates problems listed below:
 3) File-processing systems lack security features as programs can be added haphazardly.
 4) Problems can mount if programs are written in many programming languages leading to confusion.
 
+### 4) What are the advantages of DBMS systems ?
+
+1) Centralised data management: In the database approach, the data is stored in a central location and is shared among multiple users.
+2) Controlled data redundancy: During database design, various files are integrated and each logical data item is stored at central location. This eliminates 
+   replicating the data item in different files that ensures consistency. It also saves storage space.  
+3) Enforcing data integrity: Various data integrity constraints are identified during design and these constraints can be enforced by the DBMS.
+4) Data sharing: The data stored in the database can be shared among multiple users or application programs. Same stored data can be used to create new applications.
+5) Ease of application development: The application programs are easier to develop because DBMS handles issues like concurrent access,security and data integrity.
+6) Data security: Since the data is stored centrally, enforcing security constraints is easy. Only authorised channels can access databases securely thanks to the DBMS.
+7) Backup and recovery: The DBMS provides backup and recovery for hardware and software failures. 
 
 
 
