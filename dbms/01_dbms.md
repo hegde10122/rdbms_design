@@ -57,3 +57,32 @@ on prepaid calling cards, and storing information about the communication networ
 
 ### 3) What are the disadvantages of file-processing systems ?
 
+In file-processing systems, data is stored in files and then programmers write programs to add,modify,delete and 
+retrieve information from these files.
+Consider a bookstore that uses a file processing system to keep track of all the available books. The system maintains a file named BOOK to store information 
+related to the books. This information includes ISBN,book title, price, year of publishing,copyright data,category,number of pages,name of author, name of 
+publisher,address of publisher etc.
+The system also provides many programs to allow users to manipulate information stored in BOOK file. For example, the system may contain programs to add 
+information about a new book, modify any existing book information and print the details of books according to the categories.
+
+Suppose, a need arises to keep additional information about the publishers of the books that includes phone number and email. To satisfy this 
+requirement, the system creates a new file PUBLISHER, which included name, address, phone number and email id of publishers. New application programs are
+written to manipulate information in the PUBLISHER file. 
+Thus, with increasing and changing requirements as the business grows, new files keep getting added all the time.
+
+But this file-processing system creates problems listed below:
+
+1) Same information can be duplicated in many files. For example, the name and the address of publisher are stored in BOOK file as well as in PUBLISHER file.
+   This duplication of data is called data redundancy which leads to storage space wastage. Data redundancy also causes data inconsistency. 
+   To understand this let us consider an example. Suppose the address of the publisher is changed. Now we need to update both BOOK file and PUBLISHER file with this 
+   new address. But if the BOOK file address is not updated due to a programming anomaly then the same publisher will have two different addresses in two different files 
+   leading to data inconsistencies.
+2) In almost all applications, there are certain rules or constraints that need to be fulfilled at all times. These are called as data integrity rules.
+   In file processing systems, these rules need to be programmed in all the concerned files. If a particular constraint changes then all the affected files need to be 
+   explicitly changed.
+3) File-processing systems lack security features as programs can be added haphazardly.
+4) Problems can mount if programs are written in many programming languages leading to confusion.
+
+
+
+
