@@ -1,5 +1,5 @@
 
-# 1) What is data, database and a DBMS?
+### 1) What is data, database and a DBMS?
 
 Storing data and retrieving information is the key for businesses to run efficiently. The term data can be defined as 
 facts about something or someone. 
@@ -23,7 +23,7 @@ users, the system must avoid possible anomalous results.
 
 Thus the database and the DBMS software are collectively called as Database systems.
 
-# 2) What are some applications of DBMS?
+### 2) What are some applications of DBMS?
 
 Databases are widely used. Here are some applications:
 
@@ -55,5 +55,5 @@ k) Telecommunication: For keeping records of calls made, generating monthly bill
 on prepaid calling cards, and storing information about the communication networks.
 
 
-# What are the disadvantages of file-processing systems ?
+### 3) What are the disadvantages of file-processing systems ?
 
